@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dr Mundhada Bharati Hospital</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>Dr Mundhada Bharati Hospital</h1>
+  <p>Chandrapur, Maharashtra</p>
+</header>
+
+<nav>
+  <a href="#home">Home</a>
+  <a href="#about">About</a>
+  <a href="#services">Services</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<main>
+  <section id="home" class="hero">
+    <h2>Welcome to Our Hospital</h2>
+    <p>Providing Quality Healthcare with Compassion</p>
+    <button class="btn" onclick="scrollToContact()">Book Appointment</button>
+  </section>
+
+  <section id="about" class="about">
+    <h2>About Us</h2>
+    <p>Dr Mundhada Bharati Hospital is a trusted healthcare center in Chandrapur, Maharashtra, offering modern medical facilities and experienced doctors.</p>
+  </section>
+
+  <section id="services" class="services">
+    <h2>Our Services</h2>
+    <ul>
+      <li>General Medicine</li>
+      <li>Emergency Care</li>
+      <li>Diagnostics</li>
+      <li>Surgery</li>
+      <li>Pharmacy</li>
+    </ul>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <p>Phone: +91-XXXXXXXXXX</p>
+    <p>Email: info@bharatihospital.com</p>
+    <p>Address: Chandrapur, Maharashtra</p>
+
+    <h3>Book Appointment</h3>
+    <form id="appointmentForm">
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <input type="tel" placeholder="Phone Number" required>
+      <textarea placeholder="Your Message"></textarea>
+      <button class="btn" type="submit">Submit</button>
+    </form>
+    <p id="formMsg"></p>
+  </section>
+</main>
+
+<footer>
+  <p>© 2026 Dr Mundhada Bharati Hospital. All Rights Reserved.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
